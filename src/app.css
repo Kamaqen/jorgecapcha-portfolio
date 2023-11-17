@@ -16,3 +16,11 @@ h3,
 .robomono {
   font-family: 'Roboto Mono', sans-serif;
 }
+
+img {
+  transform: scaleX(-1);
+  border-top-right-radius: 240px;
+  border-top-left-radius: 330px;
+  border-bottom-right-radius: 240px;
+  border-bottom-left-radius: 330px;
+}
