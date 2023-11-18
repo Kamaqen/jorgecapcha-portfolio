@@ -19,8 +19,8 @@ h3,
 
 img {
   transform: scaleX(-1);
-  border-top-right-radius: 240px;
-  border-top-left-radius: 330px;
-  border-bottom-right-radius: 240px;
-  border-bottom-left-radius: 330px;
+  border-top-right-radius: 220px;
+  border-top-left-radius: 270px;
+  border-bottom-right-radius: 220px;
+  border-bottom-left-radius: 270px;
 }
