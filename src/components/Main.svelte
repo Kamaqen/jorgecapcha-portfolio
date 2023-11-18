@@ -72,12 +72,12 @@
       <Step step={steps[0]}>
         <p>
           Get That Home is a comprehensive full-stack application designed to
-          connect home seekers with property owners, tailoring the experience to
-          their specific profiles. With advanced search features and options to
-          save or post properties, this project was developed using <strong
-            class="text-violet-400">Ruby on Rails, React and JavaScript!</strong
-          > Rails is the Ruby framework used to build the REST API and React JS is
-          used for the project's frontend.
+          connect home seekers with property owners. With advanced search
+          features and options to save or post properties, this project was
+          developed using <strong class="text-violet-400"
+            >Ruby on Rails, React and JavaScript!</strong
+          > Rails is used to build the REST API and React JS is used for the project's
+          frontend.
         </p>
       </Step>
       <Step step={steps[1]}>
