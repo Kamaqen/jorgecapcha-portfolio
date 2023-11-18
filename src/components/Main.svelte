@@ -15,8 +15,8 @@
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
         My <span class="text-violet-400">favorite tech</span> includes JavaScript
-        or Typescript (Angular or SvelteKit), TailwindCSS, Ruby on Rails, Go + Gin
-        or Typescript + Nest.js & PostgreSQL!
+        or Typescript (Angular or SvelteKit), TailwindCSS, Ruby on Rails, Go or Typescript
+        + Nest.js & PostgreSQL!
       </p>
       <a
         href="https://www.linkedin.com/in/jorgecapcha/"
