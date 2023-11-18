@@ -1,8 +1,16 @@
 <script>
   import Step from "./Step.svelte";
   let steps = [
-    { name: "Get That Home", icon: "fa-solid fa-house-laptop" },
-    { name: "Todos With Vite", icon: "fa-solid fa-list-check" },
+    {
+      name: "Get That Home",
+      icon: "fa-solid fa-house-laptop",
+      href: "https://getthathome-t1.netlify.app",
+    },
+    {
+      name: "Doable",
+      icon: "fa-solid fa-list-check",
+      href: "https://github.com/Kamaqen/todo-with-vite",
+    },
     { name: "Eatable", icon: "fa-solid fa-drumstick-bite" },
   ];
 </script>
@@ -61,9 +69,35 @@
       <p>Watch The Video</p>
     </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-      <Step step={steps[0]} />
-      <Step step={steps[1]} />
-      <Step step={steps[2]} />
+      <Step step={steps[0]}>
+        <p>
+          Get That Home is a comprehensive full-stack application designed to
+          connect home seekers with property owners, tailoring the experience to
+          their specific profiles. With advanced search features and options to
+          save or post properties, this project was developed using <strong
+            class="text-violet-400">Ruby on Rails, React and JavaScript!</strong
+          > Rails is the Ruby framework used to build the REST API and React JS is
+          used for the project's frontend.
+        </p>
+      </Step>
+      <Step step={steps[1]}>
+        <p>
+          Doable is a versatile to-do list application designed to streamline
+          users' lives by efficiently managing essential tasks information. The
+          project was developed using <strong class="text-violet-400"
+            >HTML, CSS, and vanilla JavaScript</strong
+          > , with data sourced from an external API.
+        </p>
+      </Step>
+      <Step step={steps[2]}>
+        <p>
+          Eatable is a web application that empowers users to browse, update,
+          and delete various food records effortlessly. This dynamic platform
+          was constructed using <strong class="text-violet-400"
+            >Emotion CSS, JavaScript, and React</strong
+          >, and it seamlessly interacts with a data API.
+        </p>
+      </Step>
     </div>
   </section>
 </main>
