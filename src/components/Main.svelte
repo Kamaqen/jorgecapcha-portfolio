@@ -29,6 +29,11 @@
       description:
         "In the world of bits and bytes, I find balance in music. Whether I'm fine-tuning a melody or debugging a complex algorithm, the precision and creativity required in both domains are remarkably similar. This harmony-seeking mindset extends beyond the notes and lines of code, influencing my approach to problem-solving and fostering a balanced perspective in the dynamic world of technology.",
     },
+    {
+      name: "Innovative Soul",
+      description:
+        "Fueled by a passion for pushing boundaries, I'm diving into cutting-edge technologies with a focus on blockchain. Specifically, I'm exploring the decentralized future, delving into smart contracts using languages like Solidity. Simultaneously, I'm deeply engaged in understanding wallet authentication mechanisms, recognizing their pivotal role in securing transactions on the blockchain.",
+    },
   ];
 </script>
 
