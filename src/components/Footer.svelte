@@ -13,7 +13,7 @@
         class="text-violet-400"
         target="_blank"
       >
-        kamaqen <sup
+        https://github.com/Kamaqen <sup
           ><span class="text-xs scale-75 pl-0.5">
             <i
               class="fa-solid fa-arrow-up-richt-from-square text-xs scale-[75%]"
@@ -25,11 +25,11 @@
     <p>
       <b class="pr-2">LinkedIn</b>
       <a
-        href="www.linkedin.com/in/jorgecapcha"
+        href="https://www.linkedin.com/in/jorgecapcha"
         class="text-violet-400"
         target="_blank"
       >
-        kamaqen <sup
+        https://www.linkedin.com/in/jorgecapcha <sup
           ><span class="text-xs scale-75 pl-0.5">
             <i
               class="fa-solid fa-arrow-up-richt-from-square text-xs scale-[75%]"
