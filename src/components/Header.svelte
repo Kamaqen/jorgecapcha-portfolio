@@ -23,7 +23,7 @@
     {/each}
   </div>
   <a
-    href="mailto:jmcapcha@mail.com"
+    href="mailto:jmcapcha@gmail.com"
     class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
   >
     <div

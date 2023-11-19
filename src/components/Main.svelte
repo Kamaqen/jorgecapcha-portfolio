@@ -50,7 +50,7 @@
         + Nest.js & PostgreSQL!
       </p>
       <a
-        href="https://www.linkedin.com/in/jorgecapcha/"
+        href="mailto:jmcapcha@gmail.com"
         target="_blank"
         class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 rounded-full bg-white text-slate-950"
       >
