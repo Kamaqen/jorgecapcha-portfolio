@@ -17,10 +17,14 @@ h3,
   font-family: 'Roboto Mono', sans-serif;
 }
 
-img {
+#profile {
   transform: scaleX(-1);
   border-top-right-radius: 220px;
   border-top-left-radius: 270px;
   border-bottom-right-radius: 220px;
   border-bottom-left-radius: 270px;
+}
+
+#logo {
+  filter: grayscale(1);
 }

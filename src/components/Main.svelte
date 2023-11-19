@@ -69,6 +69,7 @@
         src="/images/portfolio.jpg"
         alt="profile"
         class="object-cover z-[2] max-h-[70vh]"
+        id="profile"
       />
     </div>
   </section>

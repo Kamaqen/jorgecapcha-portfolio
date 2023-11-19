@@ -14,7 +14,7 @@
       : " py-6 bg-transparent border-transparent")}
 >
   <div class="flex">
-    <img src={logo} alt="logo" class="max-h-[2vh] mx-2" />
+    <img src={logo} alt="logo" class="max-h-[2vh] mx-3" id="logo" />
   </div>
   <h1 class="font-medium">
     <b class="font-bold robomono">Jorge</b> Capcha
