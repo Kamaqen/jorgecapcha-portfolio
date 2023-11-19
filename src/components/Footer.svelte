@@ -5,7 +5,12 @@
     Connect with me &darr;
   </p>
   <div class="flex flex-col gap-4 items-center justify-center">
-    <p><b class="pr-2">Email</b> jmcapcha@gmail.com</p>
+    <p>
+      <b class="pr-2">Email</b>
+      <a href="mailto:jmcapcha@gmail.com" class="text-violet-400">
+        jmcapcha@gmail.com</a
+      >
+    </p>
     <p>
       <b class="pr-2">GitHub</b>
       <a

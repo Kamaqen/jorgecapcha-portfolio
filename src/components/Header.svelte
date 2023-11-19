@@ -4,6 +4,7 @@
     { name: "Projects", link: "#projects" },
     { name: "About Me", link: "#about" },
   ];
+  import logo from "/images/kamaqen-logo.png";
 </script>
 
 <header
@@ -12,6 +13,9 @@
       ? " py-4 bg-slate-950 border-violet-950"
       : " py-6 bg-transparent border-transparent")}
 >
+  <div class="flex">
+    <img src={logo} alt="logo" class="max-h-[2vh] mx-3" id="logo" />
+  </div>
   <h1 class="font-medium">
     <b class="font-bold robomono">Jorge</b> Capcha
   </h1>
