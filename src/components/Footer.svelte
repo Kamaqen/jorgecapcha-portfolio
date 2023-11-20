@@ -12,7 +12,7 @@
       >
     </p>
     <p>
-      <b class="pr-2">GitHub</b>
+      <i class="fa-brands fa-square-github fa-lg" />
       <a
         href="https://github.com/Kamaqen"
         class="text-violet-400"
@@ -28,7 +28,7 @@
       </a>
     </p>
     <p>
-      <b class="pr-2">LinkedIn</b>
+      <i class="fa-brands fa-linkedin fa-lg" />
       <a
         href="https://www.linkedin.com/in/jorgecapcha"
         class="text-violet-400"
