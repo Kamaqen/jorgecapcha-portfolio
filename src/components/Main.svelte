@@ -9,9 +9,13 @@
     {
       name: "Doable",
       icon: "fa-solid fa-list-check",
-      href: "https://github.com/Kamaqen/todo-with-vite",
+      href: "https://res.cloudinary.com/dq5zlflvg/image/upload/v1700439523/doable_duedate.png",
     },
-    { name: "Eatable", icon: "fa-solid fa-drumstick-bite" },
+    {
+      name: "Eatable",
+      icon: "fa-solid fa-drumstick-bite",
+      href: "https://res.cloudinary.com/dq5zlflvg/image/upload/v1700440263/eatable_dashboard.png",
+    },
   ];
   let benefits = [
     {
