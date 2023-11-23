@@ -9,12 +9,12 @@
     {
       name: "Doable",
       icon: "fa-solid fa-list-check",
-      href: "https://res.cloudinary.com/dq5zlflvg/image/upload/v1700439523/doable_duedate.png",
+      href: "https://doable-jc.netlify.app",
     },
     {
       name: "Eatable",
       icon: "fa-solid fa-drumstick-bite",
-      href: "https://res.cloudinary.com/dq5zlflvg/image/upload/v1700440263/eatable_dashboard.png",
+      href: "https://eatable-jc.netlify.app",
     },
   ];
   let benefits = [
