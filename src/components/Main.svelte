@@ -86,14 +86,14 @@
         Curious to <span class="robomono text-violet-400">see</span> my work?
       </h3>
     </div>
-    <!-- <a
-      href="https://res.cloudinary.com/dq5zlflvg/video/upload/v1699302134/Reel_antiguo_Big_Times_ME_rdefv4.mp4"
+    <a
+      href="https://res.cloudinary.com/dq5zlflvg/video/upload/v1701131205/JC_fullstack_dev.mp4"
       target="_blank"
       class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
     >
       <i class="fa-regular fa-circle-play" />
       <p>Watch The Video</p>
-    </a> -->
+    </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
