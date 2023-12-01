@@ -43,7 +43,7 @@
   async function downloadPDF() {
     try {
       const response = await fetch(
-        "https://portfolio-pdf-api.onrender.com/api/download-pdf"
+        "`${import.meta.env.BASE_URL}static/assets/jorgecapcha-cv-eng.pdf`"
       );
       const blob = await response.blob();
 
@@ -78,7 +78,7 @@
         or Typescript (React, Angular or SvelteKit), TailwindCSS, Ruby on Rails,
         Go or Typescript + Nest.js & PostgreSQL!
       </p>
-      <a
+      <!-- <a
         href="mailto:jmcapcha@gmail.com"
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 rounded-full bg-white text-slate-950"
       >
@@ -86,13 +86,24 @@
           class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
         />
         <h4 class="relative z-9">Get In Touch &rarr;</h4>
-      </a>
+      </a> -->
       <button
         on:click={downloadPDF}
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 rounded-full bg-white text-slate-950"
       >
         <h4 class="relative z-9">Download Resume</h4>
       </button>
+      <div class="flex lg:align-center gap-6 md:gap-8 lg:gap-10">
+        <a href="mailto:jmcapcha@gmail.com">
+          <i class="fa-solid fa-envelope" /></a
+        >
+        <a href="https://github.com/Kamaqen" target="_blank">
+          <i class="fa-brands fa-square-github fa-lg" />
+        </a>
+        <a href="https://www.linkedin.com/in/jorge-capcha/" target="_blank">
+          <i class="fa-brands fa-linkedin fa-lg" /></a
+        >
+      </div>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
       <img
