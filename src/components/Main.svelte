@@ -43,7 +43,7 @@
   async function downloadPDF() {
     try {
       const response = await fetch(
-        "`${import.meta.env.BASE_URL}static/assets/jorgecapcha-cv-eng.pdf`"
+        `${import.meta.env.BASE_URL}public/jorgecapcha-cv-eng.pdf`
       );
       const blob = await response.blob();
 
