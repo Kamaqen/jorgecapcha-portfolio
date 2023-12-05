@@ -42,9 +42,7 @@
 
   async function downloadPDF() {
     try {
-      const response = await fetch(
-        `${import.meta.env.BASE_URL}public/jorgecapcha-cv-eng.pdf`
-      );
+      const response = await fetch("https://portfolio-pdf-api.onrender.com");
       const blob = await response.blob();
 
       // Create a blob URL and trigger download
