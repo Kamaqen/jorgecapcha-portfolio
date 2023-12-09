@@ -101,12 +101,12 @@
             <i class="fa-brands fa-linkedin fa-lg" />
           </a>
         </div>
-        <button
+        <!-- <button
           on:click={downloadPDF}
           class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 rounded-full bg-white text-slate-950"
         >
           <h4 class="relative z-9">Download Resume</h4>
-        </button>
+        </button> -->
       </div>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
