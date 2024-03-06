@@ -70,7 +70,7 @@
           <a href="https://github.com/Kamaqen" target="_blank">
             <i class="fa-brands fa-square-github fa-lg" />
           </a>
-          <a href="https://www.linkedin.com/in/jorge-capcha/" target="_blank">
+          <a href="https://www.linkedin.com/in/jorgecapcha/" target="_blank">
             <i class="fa-brands fa-linkedin fa-lg" />
           </a>
         </div>
