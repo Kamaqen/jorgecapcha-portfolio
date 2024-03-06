@@ -15,7 +15,7 @@
   <div class="flex">
     <img
       src="https://res.cloudinary.com/dq5zlflvg/image/upload/v1701148862/kamaqen-cartoon_yvcpka.png"
-      alt="logo"
+      alt="Jorge Capcha's logo"
       class="max-h-[3vh] mx-3"
       id="logo"
     />
