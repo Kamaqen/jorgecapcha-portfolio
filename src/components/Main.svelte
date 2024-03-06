@@ -77,7 +77,7 @@
         <button
           class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 rounded-full bg-white text-slate-950"
         >
-          <h4 class="relative z-9"><a href="public/resume-jorge-capcha.pdf" target="_blank">Download Resume</a></h4>
+          <h4 class="relative z-9"><a href="/assets/resume-jorge-capcha.pdf" target="_blank">Download Resume</a></h4>
         </button>
       </div>
     </div>
