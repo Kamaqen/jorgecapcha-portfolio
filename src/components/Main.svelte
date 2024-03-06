@@ -39,24 +39,6 @@
         "Fueled by a passion for pushing boundaries, I'm diving into cutting-edge technologies with a focus on blockchain. Specifically, I'm exploring the decentralized future, delving into smart contracts using languages like Solidity. Simultaneously, I'm deeply engaged in understanding wallet authentication mechanisms, recognizing their pivotal role in securing transactions on the blockchain.",
     },
   ];
-
-  async function downloadPDF() {
-    try {
-      const response = await fetch("https://portfolio-pdf-api.onrender.com");
-      const blob = await response.blob();
-
-      // Create a blob URL and trigger download
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "resume.pdf";
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-    } catch (error) {
-      console.error("Error downloading PDF:", error);
-    }
-  }
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -76,15 +58,6 @@
         or Typescript (React, Angular or SvelteKit), TailwindCSS, Ruby on Rails,
         Go or Typescript + Nest.js & PostgreSQL!
       </p>
-      <!-- <a
-        href="mailto:jmcapcha@gmail.com"
-        class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 rounded-full bg-white text-slate-950"
-      >
-        <div
-          class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-        />
-        <h4 class="relative z-9">Get In Touch &rarr;</h4>
-      </a> -->
       <div
         class="flex flex-col lg:align-center gap-6 md:gap-8 lg:gap-10 lg:justify-center"
       >
@@ -104,7 +77,7 @@
         <button
           class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 rounded-full bg-white text-slate-950"
         >
-          <h4 class="relative z-9"><a href="/public/resume-jorge-capcha.pdf" target="_blank">Download Resume</a></h4>
+          <h4 class="relative z-9"><a href="public/resume-jorge-capcha.pdf" target="_blank">Download Resume</a></h4>
         </button>
       </div>
     </div>
