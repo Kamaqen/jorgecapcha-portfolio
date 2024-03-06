@@ -84,7 +84,7 @@
     <div class="relative shadow-2xl grid place-items-center">
       <img
         src="https://res.cloudinary.com/dq5zlflvg/image/upload/v1701148776/portfolio_v7wrqu.jpg"
-        alt="profile"
+        alt="Jorge Capcha's profile"
         class="object-cover z-[2] max-h-[70vh]"
         id="profile"
       />
