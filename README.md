@@ -1,38 +1,52 @@
-# create-svelte
+# Jorge Capcha Portfolio
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is the repository for my personal portfolio website, showcasing my skills, projects, and experiences as a Full Stack Developer.
 
-## Creating a project
+## About
 
-If you're seeing this, you've probably already done this step. Congrats!
+The portfolio website is built using SvelteKit with Vite as the bundler and Tailwind CSS for styling. It features sections for an introduction, projects, about me, and a complete package comparison.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Features
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- Introduction section with a brief overview and contact information.
+- Projects section showcasing some of my creative endeavors with descriptions.
+- About me section highlighting my key strengths and characteristics.
+- Complete package comparison table demonstrating my skills compared to other candidates.
 
-## Developing
+## Usage
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To run the website locally:
 
-```bash
-npm run dev
+1. Clone this repository:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+   ```bash
+   git clone https://github.com/your-username/jorgecapcha-portfolio.git
+   ```
 
-## Building
+2. Navigate to the project directory:
 
-To create a production version of your app:
+   ```bash
+   cd jorgecapcha-portfolio
+   ```
 
-```bash
-npm run build
-```
+3. Install dependencies:
 
-You can preview the production build with `npm run preview`.
+   ```bash
+   npm install
+   ```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your web browser and navigate to `http://localhost:5173` to view the website.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
