@@ -1,4 +1,4 @@
-# Jorge Capcha Portfolio
+# Jorge Capcha's Portfolio
 
 This is the repository for my personal portfolio website, showcasing my skills, projects, and experiences as a Full Stack Developer.
 
@@ -20,7 +20,7 @@ To run the website locally:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/jorgecapcha-portfolio.git
+   git clone https://github.com/Kamaqen/jorgecapcha-portfolio.git
    ```
 
 2. Navigate to the project directory:
