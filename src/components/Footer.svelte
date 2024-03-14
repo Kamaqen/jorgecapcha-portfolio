@@ -1,46 +1,34 @@
 <footer
   class="py-10 sm:py-20 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
-  <p class="px-4 py-2 bg-white text-slate-950 font-medium">
+  <p class="text-base sm:text-lg md:text-xl text-violet-500">
     Connect with me &darr;
   </p>
   <div class="flex flex-col gap-4 items-center justify-center">
     <p>
-      <b class="pr-2">Email</b>
+      <i class="fa-solid fa-envelope mx-1" />
       <a href="mailto:jmcapcha@gmail.com" class="text-violet-400">
         jmcapcha@gmail.com</a
       >
     </p>
     <p>
-      <i class="fa-brands fa-square-github fa-lg" />
+      <i class="fa-brands fa-square-github fa-lg mx-1" />
       <a
         href="https://github.com/Kamaqen"
         class="text-violet-400"
         target="_blank"
       >
-        https://github.com/Kamaqen <sup
-          ><span class="text-xs scale-75 pl-0.5">
-            <i
-              class="fa-solid fa-arrow-up-richt-from-square text-xs scale-[75%]"
-            />
-          </span></sup
-        >
+        https://github.com/Kamaqen
       </a>
     </p>
     <p>
-      <i class="fa-brands fa-linkedin fa-lg" />
+      <i class="fa-brands fa-linkedin fa-lg mx-1" />
       <a
-        href="https://www.linkedin.com/in/jorgecapcha"
+        href="https://www.linkedin.com/in/jorgecapcha/"
         class="text-violet-400"
         target="_blank"
       >
-        https://www.linkedin.com/in/jorgecapcha <sup
-          ><span class="text-xs scale-75 pl-0.5">
-            <i
-              class="fa-solid fa-arrow-up-richt-from-square text-xs scale-[75%]"
-            />
-          </span></sup
-        >
+        https://www.linkedin.com/in/jorgecapcha
       </a>
     </p>
   </div>
