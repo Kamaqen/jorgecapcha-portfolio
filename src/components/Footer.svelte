@@ -1,7 +1,7 @@
 <footer
   class="py-10 sm:py-20 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
-  <p class="text-violet-500">
+  <p class="text-base sm:text-lg md:text-xl text-violet-500">
     Connect with me &darr;
   </p>
   <div class="flex flex-col gap-4 items-center justify-center">
