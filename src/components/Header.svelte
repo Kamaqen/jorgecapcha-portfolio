@@ -30,6 +30,7 @@
       >
     {/each}
   </div>
+
   <a
     href="mailto:jmcapcha@gmail.com"
     class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
@@ -39,4 +40,16 @@
     />
     <h4 class="relative z-9">Get In Touch</h4>
   </a>
+  <div class="sm:flex pr-4 ml-4 gap-4 hidden">
+    <a href="/"
+      ><img src="/icons/uk.svg" alt="English" class="relative z-9 w-6 h-6" /></a
+    >
+    <a href="/es"
+      ><img
+        src="/icons/spain.svg"
+        alt="Español"
+        class="relative z-9 w-6 h-6"
+      /></a
+    >
+  </div>
 </header>
