@@ -55,8 +55,8 @@
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
         My <span class="text-violet-400">favorite tech</span> includes JavaScript
-        or Typescript (React, Angular or SvelteKit), TailwindCSS, Ruby on Rails,
-        Go or Typescript + Nest.js & PostgreSQL!
+        or Typescript (React, Angular or SvelteKit), Material-UI, PrimeNG, Microsoft .NET,
+        C#, Solidity & SQL Server!
       </p>
       <div
         class="flex flex-col lg:align-center gap-6 md:gap-8 lg:gap-10 lg:justify-center"
