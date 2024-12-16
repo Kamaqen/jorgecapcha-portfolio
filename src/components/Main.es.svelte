@@ -19,24 +19,24 @@
   ];
   let benefits = [
     {
-      name: "Tech Enthusiast",
+      name: "Entusiasta de la Tecnología",
       description:
-        "As a Full Stack Developer, I'm on a perpetual journey of learning and exploration. From mastering frameworks to crafting seamless user experiences, I'm always up for a challenge. Embracing the flexibility of remote work, I bring my leadership experience to collaborative projects. Together, let's build something amazing, no matter where in the world you are.",
+        "Como desarrollador Full Stack, estoy en un viaje continuo de aprendizaje y exploración. Desde dominar frameworks hasta crear experiencias de usuario fluidas, siempre estoy listo para un desafío. Aprovechando la flexibilidad del trabajo remoto, aporto mi experiencia en liderazgo a proyectos colaborativos. Juntos, podemos construir algo increíble, sin importar dónde estés en el mundo.",
     },
     {
-      name: "Excellent Communicator",
+      name: "Excelente Comunicador",
       description:
-        "Beyond the lines of code, I'm also a medical interpreter. I don't just speak languages; I craft seamless communication bridges. My ability to break down language barriers ensures that ideas flow effortlessly. I thrive on the challenge of conveying not just words, but the nuanced essence behind them, enhancing understanding and collaboration in both the tech world and beyond.",
+        "Más allá de las líneas de código, también soy intérprete médico. No solo hablo idiomas; creo puentes de comunicación efectivos. Mi habilidad para superar barreras lingüísticas asegura que las ideas fluyan sin problemas. Me apasiona transmitir no solo palabras, sino también la esencia detrás de ellas, mejorando la comprensión y colaboración tanto en el mundo tecnológico como más allá.",
     },
     {
-      name: "Harmony Seeker",
+      name: "Buscador de Armonía",
       description:
-        "In the world of bits and bytes, I find balance in music. Whether I'm fine-tuning a melody or debugging a complex algorithm, the precision and creativity required in both domains are remarkably similar. This harmony-seeking mindset extends beyond the notes and lines of code, influencing my approach to problem-solving and fostering a balanced perspective in the dynamic world of technology.",
+        "En el mundo de los bits y bytes, encuentro equilibrio en la música. Ya sea afinando una melodía o depurando un algoritmo complejo, la precisión y creatividad requeridas en ambos campos son notablemente similares. Esta mentalidad de búsqueda de armonía se extiende más allá de las notas y líneas de código, influyendo en mi enfoque para resolver problemas y fomentando una perspectiva equilibrada en el dinámico mundo de la tecnología.",
     },
     {
-      name: "Innovative Soul",
+      name: "Alma Innovadora",
       description:
-        "Fueled by a passion for pushing boundaries, I'm diving into cutting-edge technologies with a focus on blockchain. Specifically, I'm exploring the decentralized future, delving into smart contracts using languages like Solidity. Simultaneously, I'm deeply engaged in understanding wallet authentication mechanisms, recognizing their pivotal role in securing transactions on the blockchain.",
+        "Impulsado por una pasión por superar límites, estoy explorando tecnologías de vanguardia con un enfoque en blockchain. En particular, estoy investigando el futuro descentralizado, profundizando en contratos inteligentes utilizando lenguajes como Solidity. Al mismo tiempo, estoy profundamente involucrado en comprender los mecanismos de autenticación de billeteras, reconociendo su papel fundamental en la seguridad de las transacciones en blockchain.",
     },
   ];
 </script>
@@ -50,13 +50,14 @@
       class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
     >
       <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-        Hi! I'm <span class="robomono text-violet-400">Jorge</span> Capcha
-        <br />Full Stack <span class="robomono text-violet-400">Developer</span>
+        ¡Hola! Soy <span class="robomono text-violet-400">Jorge</span> Capcha
+        <br />Desarrollador
+        <span class="robomono text-violet-400">Full Stack</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
-        My <span class="text-violet-400">favorite tech</span> includes JavaScript
-        or Typescript (React, Angular or SvelteKit), Material-UI, PrimeNG, Microsoft .NET,
-        C#, Solidity & SQL Server!
+        Mi <span class="text-violet-400">tecnología favorita</span> incluye JavaScript
+        o TypeScript (React, Angular o SvelteKit), Material-UI, PrimeNG, Microsoft
+        .NET, C#, Solidity y SQL Server.
       </p>
       <div
         class="flex flex-col lg:align-center gap-6 md:gap-8 lg:gap-10 lg:justify-center"
@@ -75,20 +76,22 @@
           </a>
         </div>
         <a
-    href="/assets/resume-jorge-capcha.pdf" target="_blank" rel="noopener noreferrer"
-    class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-  >
-    <div
-      class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-    />
-    <h4 class="relative z-9">Download Resume</h4>
-  </a>
+          href="/assets/resume-jorge-capcha.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+        >
+          <div
+            class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+          />
+          <h4 class="relative z-9">Descargar Currículum</h4>
+        </a>
       </div>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
       <img
         src="https://res.cloudinary.com/dq5zlflvg/image/upload/v1701148776/portfolio_v7wrqu.jpg"
-        alt="Jorge Capcha's profile"
+        alt="Foto de perfil de Jorge Capcha"
         class="object-cover z-[2] max-h-[70vh]"
         id="profile"
       />
@@ -97,10 +100,10 @@
   <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
     <div class="flex flex-col gap-2 text-center">
       <h6 class="text-lg sm:text-xl md:text-2xl">
-        A few of my creative endeavors.
+        Algunos de mis proyectos creativos.
       </h6>
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-        Curious to <span class="robomono text-violet-400">see</span> my work?
+        ¿Tienes <span class="robomono text-violet-400">curiosidad</span> por mi trabajo?
       </h3>
     </div>
     <a
@@ -109,36 +112,38 @@
       class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
     >
       <i class="fa-regular fa-circle-play" />
-      <p>Watch The Video</p>
+      <p>Ver el Video</p>
     </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          Get That Home is a comprehensive full-stack application designed to
-          connect home seekers with property owners. With advanced search
-          features and options to save or post properties, this project was
-          developed using <strong class="text-violet-400"
-            >Ruby on Rails, React and JavaScript!</strong
-          > Rails is used to build the REST API and React JS is used for the project's
+          Encuentra tu Hogar es una aplicación full-stack diseñada para conectar
+          a quienes buscan vivienda con propietarios. Con funciones avanzadas de
+          búsqueda y opciones para guardar o publicar propiedades, este proyecto
+          fue desarrollado utilizando
+          <strong class="text-violet-400"
+            >Ruby on Rails, React y JavaScript</strong
+          >. Rails se usa para construir la API REST y React JS para el
           frontend.
         </p>
       </Step>
       <Step step={steps[1]}>
         <p>
-          Doable is a versatile to-do list application designed to streamline
-          users' lives by efficiently managing essential tasks information. The
-          project was developed using <strong class="text-violet-400"
-            >HTML, CSS, and vanilla JavaScript</strong
-          > , with data sourced from an external API.
+          Doable es una aplicación de lista de tareas diseñada para simplificar
+          la vida de los usuarios gestionando eficientemente información clave.
+          El proyecto fue desarrollado usando
+          <strong class="text-violet-400">HTML, CSS y JavaScript puro</strong>,
+          obteniendo datos de una API externa.
         </p>
       </Step>
       <Step step={steps[2]}>
         <p>
-          Eatable is a web application that empowers users to browse, update,
-          and delete various food records effortlessly. This dynamic platform
-          was constructed using <strong class="text-violet-400"
-            >Emotion CSS, JavaScript, and React</strong
-          >, and it seamlessly interacts with a data API.
+          Eatable es una aplicación web que permite a los usuarios explorar,
+          actualizar y eliminar fácilmente diversos registros de alimentos. Este
+          dinámico proyecto fue construido utilizando
+          <strong class="text-violet-400"
+            >Emotion CSS, JavaScript y React</strong
+          >, interactuando de manera fluida con una API de datos.
         </p>
       </Step>
     </div>
@@ -150,13 +155,13 @@
     <div
       class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
     >
-      <h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
+      <h6 class="text-lg sm:text-xl md:text-2xl">¿Quieres saber más?</h6>
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-        A bit <span class="robomono text-violet-400">about</span> me.
+        Un poco <span class="robomono text-violet-400">sobre</span> mí.
       </h3>
     </div>
     <p class="ms-auto robomono font-semibold text-lg sm:text-xl md:text-2xl">
-      I am...
+      Soy...
     </p>
     <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
       {#each benefits as benefit, index}
@@ -176,7 +181,7 @@
       {/each}
     </div>
     <h5 class="text-2xl sm:text-3xl font-semibold text-center robomono">
-      The <span class="text-violet-400 robomono">Complete</span> Package
+      El <span class="text-violet-400 robomono">Paquete</span> Completo
     </h5>
     <div
       class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
@@ -185,20 +190,21 @@
         <thead class="border-b border-solid border-slate-200">
           <tr class="">
             <th />
-            <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-            <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-            <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-            <th class="whitespace-nowrap bg-violet-700 text-white p-4 px-8"
-              >Me</th
-            >
+            <th class="whitespace-nowrap p-2 px-4">Candidato #1</th>
+            <th class="whitespace-nowrap p-2 px-4">Candidato #2</th>
+            <th class="whitespace-nowrap p-2 px-4">Candidato #3</th>
+            <th class="whitespace-nowrap bg-violet-700 text-white p-4 px-8">
+              Yo
+            </th>
           </tr>
         </thead>
         <tbody>
           <tr class="border-b border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Dedication</td
             >
+              Dedicación
+            </td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -207,8 +213,9 @@
           <tr class="border-b border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Critical Thought</td
             >
+              Pensamiento Crítico
+            </td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -217,8 +224,9 @@
           <tr class="border-b border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Interpersonal Skills</td
             >
+              Habilidades Interpersonales
+            </td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -227,8 +235,9 @@
           <tr class="border-b border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Programming Ability</td
             >
+              Capacidad de Programación
+            </td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
@@ -238,8 +247,8 @@
       </table>
     </div>
     <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-      <p>Scroll to see more &rarr;</p>
+      <p>Desliza para ver más &rarr;</p>
     </div>
-    <p class="mx-auto">so why not invest?</p>
+    <p class="mx-auto">¿por qué no invertir?</p>
   </section>
 </main>
