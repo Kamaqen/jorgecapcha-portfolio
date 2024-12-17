@@ -7,7 +7,7 @@
 </script>
 
 <header
-  class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid " +
+  class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid" +
     (y > 0
       ? " py-4 bg-slate-950 border-violet-950"
       : " py-6 bg-transparent border-transparent")}
@@ -16,7 +16,7 @@
     <img
       src="https://res.cloudinary.com/dq5zlflvg/image/upload/v1701148862/kamaqen-cartoon_yvcpka.png"
       alt="Jorge Capcha's logo"
-      class="max-h-[3vh] mx-3"
+      class="max-h-[3vh] mx-2 mr-1"
       id="logo"
     />
   </div>
@@ -40,15 +40,15 @@
     />
     <h4 class="relative z-9">Get In Touch</h4>
   </a>
-  <div class="sm:flex pr-4 ml-4 gap-4 hidden">
+  <div class="absolute top-1 flex right-2 gap-1">
     <a href="/"
-      ><img src="/icons/uk.svg" alt="English" class="relative z-9 w-6 h-6" /></a
+      ><img src="/icons/uk.svg" alt="English" class="relative z-9 w-4 h-4" /></a
     >
     <a href="/es"
       ><img
         src="/icons/spain.svg"
         alt="Español"
-        class="relative z-9 w-6 h-6"
+        class="relative z-9 w-4 h-4"
       /></a
     >
   </div>
