@@ -55,8 +55,8 @@
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
         My <span class="text-violet-400">favorite tech</span> includes JavaScript
-        or Typescript (React, Angular or SvelteKit), Material-UI, PrimeNG, Microsoft .NET,
-        C#, Solidity & SQL Server!
+        or Typescript (React, Angular or Svelte), Microsoft .NET, C#, Solidity &
+        PostgreSQL!
       </p>
       <div
         class="flex flex-col lg:align-center gap-6 md:gap-8 lg:gap-10 lg:justify-center"
@@ -75,14 +75,16 @@
           </a>
         </div>
         <a
-    href="/assets/resume-jorge-capcha.pdf" target="_blank" rel="noopener noreferrer"
-    class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-  >
-    <div
-      class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-    />
-    <h4 class="relative z-9">Download Resume</h4>
-  </a>
+          href="/assets/resume-jorge-capcha.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+        >
+          <div
+            class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+          />
+          <h4 class="relative z-9">Download Resume</h4>
+        </a>
       </div>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
@@ -185,54 +187,58 @@
         <thead class="border-b border-solid border-slate-200">
           <tr class="">
             <th />
+            <th class="whitespace-nowrap bg-violet-700 text-white p-4 px-8">
+              Me
+            </th>
             <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
             <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
             <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-            <th class="whitespace-nowrap bg-violet-700 text-white p-4 px-8"
-              >Me</th
-            >
           </tr>
         </thead>
         <tbody>
           <tr class="border-b border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Dedication</td
             >
+              Dedication
+            </td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Critical Thought</td
             >
+              Critical Thinking
+            </td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Interpersonal Skills</td
             >
+              Interpersonal Skills
+            </td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
-              >Programming Ability</td
             >
+              Programming Ability
+            </td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
         </tbody>
       </table>
