@@ -56,8 +56,7 @@
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
         Mi <span class="text-violet-400">tecnología favorita</span> incluye JavaScript
-        o TypeScript (React, Angular o SvelteKit), Material-UI, PrimeNG, Microsoft
-        .NET, C#, Solidity y SQL Server.
+        o TypeScript (React, Angular o Svelte), Microsoft .NET, C#, Solidity y PostgreSQL.
       </p>
       <div
         class="flex flex-col lg:align-center gap-6 md:gap-8 lg:gap-10 lg:justify-center"
@@ -190,12 +189,12 @@
         <thead class="border-b border-solid border-slate-200">
           <tr class="">
             <th />
-            <th class="whitespace-nowrap p-2 px-4">Candidato #1</th>
-            <th class="whitespace-nowrap p-2 px-4">Candidato #2</th>
-            <th class="whitespace-nowrap p-2 px-4">Candidato #3</th>
             <th class="whitespace-nowrap bg-violet-700 text-white p-4 px-8">
               Yo
             </th>
+            <th class="whitespace-nowrap p-2 px-4">Candidato #1</th>
+            <th class="whitespace-nowrap p-2 px-4">Candidato #2</th>
+            <th class="whitespace-nowrap p-2 px-4">Candidato #3</th>
           </tr>
         </thead>
         <tbody>
@@ -205,10 +204,10 @@
             >
               Dedicación
             </td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-slate-200">
             <td
@@ -216,10 +215,10 @@
             >
               Pensamiento Crítico
             </td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-slate-200">
             <td
@@ -227,10 +226,10 @@
             >
               Habilidades Interpersonales
             </td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-slate-200">
             <td
@@ -238,10 +237,10 @@
             >
               Capacidad de Programación
             </td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
         </tbody>
       </table>
