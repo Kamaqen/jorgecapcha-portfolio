@@ -9,7 +9,7 @@
 <header
   class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid" +
     (y > 0
-      ? " py-4 bg-slate-950 border-violet-950"
+      ? " py-5 bg-slate-950 border-violet-950"
       : " py-6 bg-transparent border-transparent")}
 >
   <div class="flex">
@@ -33,14 +33,14 @@
 
   <a
     href="mailto:jmcapcha@gmail.com"
-    class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
+    class="blueShadow relative overflow-hidden px-4 py-2 group rounded-full bg-white text-slate-950"
   >
     <div
       class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
     />
     <h4 class="relative z-9">Get In Touch</h4>
   </a>
-  <div class="absolute top-1 flex right-2 gap-1">
+  <div class="absolute top-1 flex right-0.5 gap-1">
     <a href="/"
       ><img src="/icons/uk.svg" alt="English" class="relative z-9 w-4 h-4" /></a
     >
