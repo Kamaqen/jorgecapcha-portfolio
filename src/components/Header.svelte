@@ -9,7 +9,7 @@
 <header
   class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid" +
     (y > 0
-      ? " py-5 bg-slate-950 border-violet-950"
+      ? " pt-5 pb-3 bg-slate-950 border-violet-950"
       : " py-6 bg-transparent border-transparent")}
 >
   <div class="flex">
