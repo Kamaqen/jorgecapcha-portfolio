@@ -117,8 +117,8 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          Encuentra tu Hogar es una aplicación full-stack diseñada para conectar
-          a quienes buscan vivienda con propietarios. Con funciones avanzadas de
+          Get That Home es una aplicación full-stack diseñada para conectar a
+          quienes buscan vivienda con propietarios. Con funciones avanzadas de
           búsqueda y opciones para guardar o publicar propiedades, este proyecto
           fue desarrollado utilizando
           <strong class="text-violet-400"
