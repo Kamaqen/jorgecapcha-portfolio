@@ -7,9 +7,9 @@
       href: "https://getthathome-t1.netlify.app",
     },
     {
-      name: "Doable",
-      icon: "fa-solid fa-list-check",
-      href: "https://doable-jc.netlify.app",
+      name: "LexHub",
+      icon: "fa-solid fa-scale-balanced",
+      href: "https://lexhub.online",
     },
     {
       name: "Eatable",
@@ -127,11 +127,12 @@
       </Step>
       <Step step={steps[1]}>
         <p>
-          Doable is a versatile to-do list application designed to streamline
-          users' lives by efficiently managing essential tasks information. The
-          project was developed using <strong class="text-violet-400"
-            >HTML, CSS, and vanilla JavaScript</strong
-          > , with data sourced from an external API.
+          LexHub is a comprehensive online education platform offering legal
+          courses for recent law graduates. Built with <strong
+            class="text-violet-400">WordPress</strong
+          >, it leverages Elementor and various plugins, with customizations in
+          <strong class="text-violet-400">JavaScript, PHP, and CSS</strong> to meet
+          client-specific requirements.
         </p>
       </Step>
       <Step step={steps[2]}>
