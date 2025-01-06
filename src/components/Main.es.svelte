@@ -128,11 +128,12 @@
       </Step>
       <Step step={steps[1]}>
         <p>
-          Doable es una aplicación de lista de tareas diseñada para simplificar
-          la vida de los usuarios gestionando eficientemente información clave.
-          El proyecto fue desarrollado usando
-          <strong class="text-violet-400">HTML, CSS y JavaScript puro</strong>,
-          obteniendo datos de una API externa.
+          Una plataforma integral de educación en línea que ofrece cursos
+          legales para recién graduados en derecho. Desarrollada con <strong
+            class="text-violet-400">WordPress</strong
+          >, utiliza Elementor y varios complementos, con personalizaciones en
+          <strong class="text-violet-400">JavaScript, PHP y CSS</strong> para satisfacer
+          requisitos específicos del cliente.
         </p>
       </Step>
       <Step step={steps[2]}>
