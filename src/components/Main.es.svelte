@@ -7,9 +7,9 @@
       href: "https://getthathome-t1.netlify.app",
     },
     {
-      name: "Doable",
-      icon: "fa-solid fa-list-check",
-      href: "https://doable-jc.netlify.app",
+      name: "LexHub",
+      icon: "fa-solid fa-scale-balanced",
+      href: "https://lexhub.online",
     },
     {
       name: "Eatable",
@@ -75,7 +75,7 @@
           </a>
         </div>
         <a
-          href="/assets/resume-jorge-capcha.pdf"
+          href="/assets/cv-jorge-capcha.pdf"
           target="_blank"
           rel="noopener noreferrer"
           class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl robomono relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
@@ -128,8 +128,8 @@
       </Step>
       <Step step={steps[1]}>
         <p>
-          Una plataforma integral de educación en línea que ofrece cursos
-          legales para recién graduados en derecho. Desarrollada con <strong
+          LexHub es una plataforma integral de educación en línea que ofrece
+          cursos legales para recién graduados en derecho. Desarrollada con <strong
             class="text-violet-400">WordPress</strong
           >, utiliza Elementor y varios complementos, con personalizaciones en
           <strong class="text-violet-400">JavaScript, PHP y CSS</strong> para satisfacer
@@ -140,10 +140,10 @@
         <p>
           Eatable es una aplicación web que permite a los usuarios explorar,
           actualizar y eliminar fácilmente diversos registros de alimentos. Este
-          dinámico proyecto fue construido utilizando
+          proyecto fue construido utilizando
           <strong class="text-violet-400"
             >Emotion CSS, JavaScript y React</strong
-          >, interactuando de manera fluida con una API de datos.
+          >, interactuando de manera ágil con una API de datos.
         </p>
       </Step>
     </div>

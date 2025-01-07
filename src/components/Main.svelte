@@ -138,8 +138,8 @@
       <Step step={steps[2]}>
         <p>
           Eatable is a web application that empowers users to browse, update,
-          and delete various food records effortlessly. This dynamic platform
-          was constructed using <strong class="text-violet-400"
+          and delete various food records effortlessly. This platform was
+          constructed using <strong class="text-violet-400"
             >Emotion CSS, JavaScript, and React</strong
           >, and it seamlessly interacts with a data API.
         </p>
