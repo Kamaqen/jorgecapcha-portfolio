@@ -29,9 +29,9 @@
         "Más allá de las líneas de código, también soy intérprete médico. No solo hablo idiomas; creo puentes de comunicación efectivos. Mi habilidad para superar barreras lingüísticas asegura que las ideas fluyan sin problemas. Me apasiona transmitir no solo palabras, sino también la esencia detrás de ellas, mejorando la comprensión y colaboración tanto en el mundo tecnológico como más allá.",
     },
     {
-      name: "Buscador de Armonía",
+      name: "Arquitecto de la Armonía",
       description:
-        "En el mundo de los bits y bytes, encuentro equilibrio en la música. Ya sea afinando una melodía o depurando un algoritmo complejo, la precisión y creatividad requeridas en ambos campos son notablemente similares. Esta mentalidad de búsqueda de armonía se extiende más allá de las notas y líneas de código, influyendo en mi enfoque para resolver problemas y fomentando una perspectiva equilibrada en el dinámico mundo de la tecnología.",
+        "En el mundo de los bits y bytes, encuentro equilibrio en la música. Ya sea afinando una melodía o depurando un algoritmo complejo, la precisión y creatividad requeridas en ambos campos son notablemente similares. Esta mentalidad de búsqueda de armonía se extiende más allá de las notas y líneas de código, influyendo en mi enfoque para resolver problemas y fomentando una perspectiva equilibrada en el mundo de la tecnología.",
     },
     {
       name: "Alma Innovadora",
